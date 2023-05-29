@@ -41,3 +41,21 @@ body {
 .img-ini {
     width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+    .menu{
+        height: 120px;
+        background-color: blueviolet;
+        color: white;
+        font-size: 32px;
+    }
+1
+}
+@media screen and (min-width: 1280px) {
+    .menu{
+        height: 120px;
+        background-color: rgb(121, 177, 121);
+        font-size: 64px;
+    }
+}
+
