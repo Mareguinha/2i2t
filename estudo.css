@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+body {
+    background-color: rgb(252, 0, 168);
+}
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: gainsboro;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.conteudo {
+    display: grid;                  
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+}
+.menu {
+    height: 10vh;
+    background-color: aqua;
+}
+.lado {
+    height: 20vh;
+    background-color: burlywood;
+}
+.principal {
+    height: 60vh;
+    background-color: chartreuse;
+}
+.Rodape {
+   height: 10vh;
+   background-color: azure; 
+}
